@@ -35,3 +35,5 @@ php artisan route:list
 A partir da versão 5.4 do Laravel, o suporte para gravação de emoticons foi adicionado e 
 em versões < 5.7 do MySQL é mostrado este erro se você não especificar o tamanho da string.
  
+#Cria as Factory e seed e roda
+php artisan db:seed
