@@ -16,3 +16,13 @@ git add .
 
 git commit -m "Inicial Commit"
 
+git remote add origin https://github.com/fredux/api.git
+
+#Cria migration resource controller, model factory em um unico comando
+# php artisan -help make:model para verficar os comandos
+
+php artisan make:model Model/Product -a
+php artisan make:model Model/Review -a
+
+#lista as rotas
+php artisan route:list
