@@ -26,3 +26,12 @@ php artisan make:model Model/Review -a
 
 #lista as rotas
 php artisan route:list
+
+
+#foi adicionado no App/Providers e abra a classe AppServiceProvider, dentro do método boot adicione o seguinte:
+ \Illuminate\Support\Facades\Schema::defaultStringLength(191);
+
+#paara resolver um erro que estava ocorrendo na hora de rodar o php artisan migrate
+A partir da versão 5.4 do Laravel, o suporte para gravação de emoticons foi adicionado e 
+em versões < 5.7 do MySQL é mostrado este erro se você não especificar o tamanho da string.
+ 
