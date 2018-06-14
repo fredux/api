@@ -1,0 +1,18 @@
+#Cria o projeto
+laravel new eapi
+
+#após criar o projeto entra na pasta e cria o git
+git init
+
+#testa o status
+git status
+
+#abre o projeto em uma ide e encontre o .gitignore - exclui a linha /vendor se quiser adicioná-lo ao rpositorio
+
+#adiciona tods os arquivos
+git add .
+
+#commit inicial
+
+git commit -m "Inicial Commit"
+
